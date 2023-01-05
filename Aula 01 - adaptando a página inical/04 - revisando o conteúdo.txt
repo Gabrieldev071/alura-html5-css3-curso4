@@ -1,0 +1,18 @@
+Qual a diferença entre usar uma <div> ou uma <section>?
+
+Só devemos usar <section> quando o bloco for semântico
+
+
+Alternativa correta! Para um bloco onde o conteúdo tenha o mesmo significado, o mesmo sentido, usamos uma <section>.
+
+
+<section> 
+
+O elemento HTML <section> representa uma seção genérica contida em um documento HTML, geralmente com um título, quando não existir um elemento semântico mais específico para representá-lo.
+
+Por exemplo, um menu de navegação deve estar dentro um elemento <nav>, mas uma lista de resultados de pesquisa ou a exibição de um mapa e seus controles não possuem elementos específicos, e podem ser colocados dentro de uma <section>.
+
+
+<div> 
+
+O elemento de divisão **HTML <div> **é um container genérico para conteúdo de fluxo, que de certa forma não representa nada. Ele pode ser utilizado para agrupar elementos para fins de estilos (usando class ou id), ou porque eles compartilham valores de atributos, como lang. Ele deve ser utilizado somente quando não tiver outro elemento de semântica (tal como <article> ou <nav>).
