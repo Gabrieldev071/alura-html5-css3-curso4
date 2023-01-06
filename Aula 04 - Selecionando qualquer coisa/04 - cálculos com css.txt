@@ -1,0 +1,17 @@
+Nosso site deve estar preparado para dispositivos com diversos tamanhos de tela. Um grande problema enfrentado ao desenvolver um site harmonioso é justamente calcular a proporção s dimensões dos elementos em diferentes dispositivos.
+
+A propriedade calc nos dá o poder de fazer com o que cremos valores proporcionais específicos.
+
+.utensilios {
+    width: calc(40% - 26px);
+    float: left;
+    Margin: 0 20px 20px 
+
+}
+
+.utensilios {
+    width: calc(40% - (26px * 4);
+    float: left;
+    Margin: 0 20px 20px 
+
+}

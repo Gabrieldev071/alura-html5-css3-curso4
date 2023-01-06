@@ -1,0 +1,25 @@
+utilizaremos a propriedade opacity que pode ter valores entre 0 a 1, sendo que 0 o elemento estará totalmente oculto. Se quisermos exibir a imagem com opacidade de 30%, ajustaremos o valor da propriedade para 0.3.
+
+Exemplo: 
+
+.imagem-beneficios {
+    width: 60%
+    opacity: 0.3;
+    transition: 400ms;
+}
+
+.imagem-beneficios:hover {
+    opacity: 1;
+}
+
+Com CSS 3, podemos utilizar mais uma camada - a de opacidade, chamada alfa - nas cores em RGB. Para tanto, utilizamos o rgbae então definir os valores que quisermos.
+
+Exemplo: 
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    color: rgba(0,0,0,0.3);
+}
