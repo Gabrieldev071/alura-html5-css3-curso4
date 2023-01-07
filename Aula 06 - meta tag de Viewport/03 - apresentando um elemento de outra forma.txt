@@ -1,0 +1,6 @@
+Como marcar um elemento para que ele seja apresentado de outra forma, em uma tela de até 480px?
+
+Dentro do @media (max-width: 480px) {}
+
+
+Alternativa correta! É dentro dessa media query que criamos um estilo visual que compreenda telas de até 480px.

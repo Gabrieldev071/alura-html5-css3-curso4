@@ -1,0 +1,11 @@
+Qual a principal tática para não perder muito tempo criando layouts responsivos?
+
+Usar medidas proporcionais para tudo
+
+
+Alternativa correta! É hoje a melhor forma de criar qualquer conteúdo.
+
+Criar um layout fluido que se adapte sempre
+
+
+Alternativa correta! É uma forma perfeita de evitar retrabalho.

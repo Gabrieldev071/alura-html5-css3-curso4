@@ -166,12 +166,12 @@ td, th {
 }
 
 .titulo-principal:before {
-    content: "[";
+    content: "";
 }
 
 /*  Esses dois elementos criam espaço para que o CSS atue antes ou depois de um determinado conteúdo */
 .titulo-principal:after {
-    content:"]"
+    content:""
 }
 .principal {
     padding: 3em 0;
@@ -263,6 +263,24 @@ td, th {
     margin: 2em auto;
 }
 
+
+@media screen and (max-width: 480px) { 
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position:static;
+	}
+	
+	.lista-beneficios, imagem-beneficios {
+		width: 100%
+	}
+}
 
 
 
